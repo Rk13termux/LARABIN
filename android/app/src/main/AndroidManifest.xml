@@ -1,6 +1,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
+<<<<<<< HEAD
         android:label="larabinnew"
+=======
+        android:label="larabin"
+>>>>>>> e74aa7e9d2d380e73b248f1c943cf5f15659ecdf
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

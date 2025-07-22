@@ -1,10 +1,18 @@
 # Project-level configuration.
 cmake_minimum_required(VERSION 3.14)
+<<<<<<< HEAD
 project(larabinnew LANGUAGES CXX)
 
 # The name of the executable created for the application. Change this to change
 # the on-disk name of your application.
 set(BINARY_NAME "larabinnew")
+=======
+project(larabin LANGUAGES CXX)
+
+# The name of the executable created for the application. Change this to change
+# the on-disk name of your application.
+set(BINARY_NAME "larabin")
+>>>>>>> e74aa7e9d2d380e73b248f1c943cf5f15659ecdf
 
 # Explicitly opt in to modern CMake behaviors to avoid warnings with recent
 # versions of CMake.

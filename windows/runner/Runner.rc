@@ -90,12 +90,21 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "com.example" "\0"
+<<<<<<< HEAD
             VALUE "FileDescription", "larabinnew" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
             VALUE "InternalName", "larabinnew" "\0"
             VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
             VALUE "OriginalFilename", "larabinnew.exe" "\0"
             VALUE "ProductName", "larabinnew" "\0"
+=======
+            VALUE "FileDescription", "larabin" "\0"
+            VALUE "FileVersion", VERSION_AS_STRING "\0"
+            VALUE "InternalName", "larabin" "\0"
+            VALUE "LegalCopyright", "Copyright (C) 2025 com.example. All rights reserved." "\0"
+            VALUE "OriginalFilename", "larabin.exe" "\0"
+            VALUE "ProductName", "larabin" "\0"
+>>>>>>> e74aa7e9d2d380e73b248f1c943cf5f15659ecdf
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END

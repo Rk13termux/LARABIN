@@ -40,11 +40,19 @@ static void my_application_activate(GApplication* application) {
   if (use_header_bar) {
     GtkHeaderBar* header_bar = GTK_HEADER_BAR(gtk_header_bar_new());
     gtk_widget_show(GTK_WIDGET(header_bar));
+<<<<<<< HEAD
     gtk_header_bar_set_title(header_bar, "larabinnew");
     gtk_header_bar_set_show_close_button(header_bar, TRUE);
     gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
   } else {
     gtk_window_set_title(window, "larabinnew");
+=======
+    gtk_header_bar_set_title(header_bar, "larabin");
+    gtk_header_bar_set_show_close_button(header_bar, TRUE);
+    gtk_window_set_titlebar(window, GTK_WIDGET(header_bar));
+  } else {
+    gtk_window_set_title(window, "larabin");
+>>>>>>> e74aa7e9d2d380e73b248f1c943cf5f15659ecdf
   }
 
   gtk_window_set_default_size(window, 1280, 720);

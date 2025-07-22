@@ -8,12 +8,20 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
+<<<<<<< HEAD
 import 'package:larabinnew/main.dart';
+=======
+import 'package:larabin/main.dart';
+>>>>>>> e74aa7e9d2d380e73b248f1c943cf5f15659ecdf
 
 void main() {
   testWidgets('Counter increments smoke test', (WidgetTester tester) async {
     // Build our app and trigger a frame.
+<<<<<<< HEAD
     await tester.pumpWidget(const MyApp());
+=======
+    await tester.pumpWidget(const LarabinApp());
+>>>>>>> e74aa7e9d2d380e73b248f1c943cf5f15659ecdf
 
     // Verify that our counter starts at 0.
     expect(find.text('0'), findsOneWidget);

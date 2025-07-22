@@ -1,6 +1,11 @@
 {
+<<<<<<< HEAD
     "name": "larabinnew",
     "short_name": "larabinnew",
+=======
+    "name": "larabin",
+    "short_name": "larabin",
+>>>>>>> e74aa7e9d2d380e73b248f1c943cf5f15659ecdf
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
